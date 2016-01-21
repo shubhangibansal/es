@@ -92,22 +92,34 @@ STEPS FOR INSTALLING ES :
 		curl -X GET 'http://localhost:9200'
 
 7) Using ES
+
 -- curl localhost:9200
 
 8)	Installing RABBIT MQ
 
 -- Follow the video : https://www.youtube.com/watch?v=jbucr4wzQtM
+
 -- GO tO : http://www.rabbitmq.com/install-debian.html
 
 -- sudo rabbitmq-server start
+
 -- sudo add-apt-repository "deb http://www.rabbitmq.com/debian/ testing main"
+
 -- wget https://www.rabbitmq.com/rabbitmq-signing-key-public.asc
+
 -- sudo apt-key add rabbitmq-signing-key-public.asc
+
 -- sudo apt-get update
+
 -- sudo apt-get install rabbitmq-server
+
 -- sudo rabbitmqctl status
+
 -- sudo rabbitmq-plugins enable rabbitmq_management
+
 -- now go to browser run : localhost:15672 and login as guest , pass : guest
+
+
 
 9) INSTALLING RABBITMQ PLUGIN : https://github.com/elastic/elasticsearch-river-rabbitmq  		//optional as done above
 
